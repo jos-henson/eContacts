@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=eContacts
+GenericName=eContacts app   
+Comment=Simple contacts management app for elementary OS
+Categories=Utility;
+Exec=com.github.jos-henson.eContacts
+Icon=application-default-icon
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=hello-again
+Keywords=Hello;World;Example;

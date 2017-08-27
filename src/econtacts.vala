@@ -28,12 +28,15 @@ window.set_position (Gtk.WindowPosition.CENTER);
 window.set_default_size (350, 70);
 window.destroy.connect (Gtk.main_quit);
 
+var label = new Gtk.Label ("Hello Again World!");
+
 var button_hello = new Gtk.Button.with_label ("Click me!");
 button_hello.clicked.connect (() => {
     button_hello.label = "Hello World!";
     button_hello.set_sensitive (true);
 });
 
+window.add (label);
 window.add (button_hello);
 window.show_all ();
 Gtk.main ();
